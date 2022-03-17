@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 public class MainConfiguration {
     @Bean(name="appName")
     public String appName () {
-        return "Demo - Aula2";
+        return "Demo Application";
     }
 
     @Bean(name="appVersion")
